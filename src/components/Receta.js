@@ -18,12 +18,24 @@ function getModalStyle() {
 
 const useStyles = makeStyles(theme => ({
     paper: {
-      position: 'absolute',
-      width: 450,
-      backgroundColor: theme.palette.background.paper,
-      boxShadow: theme.shadows[5],
-      padding: theme.spacing(2, 4, 3),
-    },
+        position: 'absolute',
+        width: 400,
+        backgroundColor: theme.palette.background.paper,
+        boxShadow: theme.shadows[5],
+        padding: theme.spacing(2, 4, 3),
+        overflow: 'scroll',
+        height: '100%',
+        maxHeight: 500,
+        display: 'block'
+        },
+        header: {
+        padding: '12px 0',
+        borderBottom: '1px solid darkgrey'
+        },
+        content: {
+        padding: "12px 0",
+        overflow: 'scroll'
+        },
 }));
 
 const Receta = ({receta}) => {
