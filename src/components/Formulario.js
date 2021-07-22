@@ -42,7 +42,7 @@ const Formulario = () => {
                         name="nombre"
                         className="form-control"
                         type="text"
-                        placeholder="Buscar por Ingrediente"
+                        placeholder="Buscar por Ingrediente(tequila,bodka)"
                         onChange={obtenerDatosReceta}
                     />
                 </div>
